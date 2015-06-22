@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the News Post Elements View feature.
+ */
+
+include_once 'news_post_elements_view.features.inc';

@@ -1,0 +1,16 @@
+name = News Post Elements View
+description = Create a news post elements view and corresponding contexts.
+core = 7.x
+package = Views
+version = 7.x-1.0
+project = news_post_elements_view
+dependencies[] = context
+dependencies[] = news_content
+dependencies[] = views
+features[context][] = news_post_node
+features[ctools][] = context:context:3
+features[ctools][] = strongarm:strongarm:1
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = news_post_elements
+features_exclude[dependencies][ctools] = ctools
