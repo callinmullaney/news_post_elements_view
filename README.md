@@ -1,1 +1,1 @@
-# news_post_elements_view
+# news_elements_view
